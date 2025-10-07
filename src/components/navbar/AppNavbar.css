@@ -1,0 +1,30 @@
+.navLinks {
+  font-size: 22px !important;
+
+  @media (max-width: 576px) {
+    font-size: 16px !important;
+  }
+
+  @media (max-width: 991px) {
+    font-size: 20px !important;
+  }
+}
+
+.navLink-capitalize {
+  text-transform: uppercase;
+}
+
+.logo {
+  width: 350px;
+  height: 100px;
+
+  @media (max-width: 576px) {
+    width: 200px;
+    height: 50px;
+  }
+
+  @media (max-width: 991px) {
+    width: 250px;
+    height: 75px;
+  }
+}
