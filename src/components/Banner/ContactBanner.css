@@ -1,0 +1,5 @@
+.custom-banner-margin {
+  @media (max-width: 576px) {
+    margin: 0.5rem 0rem;
+  }
+}
