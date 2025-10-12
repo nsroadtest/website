@@ -1,5 +1,5 @@
 import "./AppNavbar.css";
-import { Navbar, Container, Nav } from "react-bootstrap";
+import { Navbar, Container, Nav, Button } from "react-bootstrap";
 import logo from "/logo.png";
 
 const AppNavbar = () => {
@@ -22,6 +22,11 @@ const AppNavbar = () => {
             </Nav.Link>
             <Nav.Link className="mx-1 navLinks navLink-capitalize" href="#link">
               About
+            </Nav.Link>
+            <Nav.Link className="mx-1 navLinks navLink-capitalize" href="#link">
+              <Button className="text-uppercase btn btn-warning">
+                Book Driving Lesson
+              </Button>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
