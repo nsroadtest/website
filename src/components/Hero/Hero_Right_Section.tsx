@@ -1,4 +1,4 @@
-import { Button, Col, Row, Image } from "react-bootstrap";
+import { Col, Row, Image } from "react-bootstrap";
 import safety from "/icons/safety.png";
 import trust from "/icons/trust.png";
 import star from "/icons/star.png";
