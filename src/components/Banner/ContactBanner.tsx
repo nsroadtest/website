@@ -13,7 +13,7 @@ const ContactBanner = () => {
         <Container fluid>
           <Row className="d-flex justify-content-between align-items-center px-3 py-2">
             <Col xs={12} md={7} lg={7}>
-              <Row className="py-2">
+              <Row className="py-2 fw-light">
                 <Col
                   md={4}
                   className="text-center text-md-start custom-banner-margin "
