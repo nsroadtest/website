@@ -5,7 +5,7 @@ import logo from "/logo.png";
 const AppNavbar = () => {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
-      <Container>
+      <Container fluid>
         <Navbar.Brand href="#home">
           <img
             src={logo}

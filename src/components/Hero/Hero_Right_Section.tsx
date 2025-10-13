@@ -16,40 +16,40 @@ const Hero_Right_Section = () => {
       <Row className="my-3">
         <Col xs={12} md={6} lg={6} className="my-2">
           <Image src={safety} height={50} width={50}></Image>
-          <span className="text-white fs-4">Vehicle safety</span>
-          <h6 className="text-white line-spacing fw-light">
+          <span className="text-white fs-4 mx-3">Vehicle safety</span>
+          <p className="text-white lh-base fw-light fs-6 my-2">
             To provide you a fantastic first driving experience, all of our
             automobiles are of the greatest calibre and level, and the majority
             are only 3 years old or less.
-          </h6>
+          </p>
         </Col>
         <Col xs={12} md={6} lg={6} className="my-2">
           <Image src={trust} height={50} width={50}></Image>
-          <span className="text-white fs-4">Trusted Work</span>
-          <h6 className="text-white line-spacing fw-light">
+          <span className="text-white fs-4 mx-3">Trusted Work</span>
+          <p className="text-white lh-base fw-light  fs-6 my-2 ">
             Whether you are starting from scratch (including certification),
             brushing up before a test or need defensive driving lessons, we
             invite everyone to start driving with us.
-          </h6>
+          </p>
         </Col>
       </Row>
       <Row className="my-3">
         <Col xs={12} md={6} lg={6} className="my-2">
           <Image src={star} height={50} width={50}></Image>
-          <span className="text-white fs-4">Skilled Instructor</span>
-          <h6 className="text-white line-spacing fw-light">
+          <span className="text-white fs-4 mx-3">Skilled Instructor</span>
+          <p className="text-white lh-base fw-light  fs-6 my-2">
             A trained professional with the highest industry-acceptable
             qualification and a standard that permits teaching individuals.
-          </h6>
+          </p>
         </Col>
         <Col xs={12} md={6} lg={6} className="my-2">
           <Image src={online} height={50} width={50}></Image>
-          <span className="text-white fs-4">E-Learning Classes</span>
-          <h6 className="text-white line-spacing fw-light">
+          <span className="text-white fs-4 mx-3">E-Learning Classes</span>
+          <p className="text-white lh-base fw-light  fs-6 my-2">
             Students complete E-Learning independently and asynchronously (at
             their own pace, on their own schedule). No webcams, no set dates.
             Ideal for those with busy schedules.
-          </h6>
+          </p>
         </Col>
       </Row>
     </div>

@@ -10,9 +10,9 @@ const ContactBanner = () => {
   return (
     <>
       <div className="banner-bg">
-        <Container>
-          <Row>
-            <Col xs={12} md={9} lg={9}>
+        <Container fluid>
+          <Row className="d-flex justify-content-between align-items-center px-3 py-2">
+            <Col xs={12} md={7} lg={7}>
               <Row className="py-2">
                 <Col
                   md={4}
