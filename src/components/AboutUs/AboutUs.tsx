@@ -5,7 +5,7 @@ import AboutUs_Right_Section from "./AboutUs_Right_Section";
 
 const Hero = () => {
   return (
-    <div style={{ background: "#1d6f9c" }}>
+    <div style={{ background: "#19478e" }}>
       <Container className="py-3"></Container>
       <Container fluid>
         <Row className="py-3">
