@@ -31,9 +31,8 @@ const Courses = () => {
                         </span>
                       </Col>
                     </Row>
-
                     <hr></hr>
-                    <div className="flex-grow-1 lh-lg fs-6 fw-light mx-3">
+                    <div className="flex-grow-1 lh-lg fs-6 fw-light m-md-3 m-0">
                       <ul>
                         {course.coverage.map((item) => (
                           <li key={item.id}>{item.description}</li>
