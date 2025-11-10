@@ -8,3 +8,13 @@
 .registration-form-div {
   border-radius: 10px;
 }
+
+/* .registration-image {
+  width: "950px";
+  height: "555px";
+
+  @media (max-width: 768px) {
+    width: "100%";
+    height: "auto";
+  }
+} */

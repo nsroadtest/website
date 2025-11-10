@@ -21,7 +21,6 @@ const CourseRegistration = () => {
                 src="https://roadtestdrivingschool.com/images/placeholder/image-6.png"
                 alt="Course Registration"
                 className="img-fluid rounded"
-                style={{ width: "950px", height: "555px" }}
               />
             </Col>
           </Row>
