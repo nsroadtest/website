@@ -1,6 +1,7 @@
 import "./AppNavbar.css";
 import { Navbar, Container, Nav, Button } from "react-bootstrap";
 import logo from "/logo.png";
+import BookDrivingBtn from "../Button/BookDrivingBtn";
 
 const AppNavbar = () => {
   return (
@@ -24,9 +25,7 @@ const AppNavbar = () => {
               About
             </Nav.Link>
             <Nav.Link className="mx-1 navLinks navLink-capitalize" href="#link">
-              <Button className="text-uppercase btn btn-warning">
-                Book Driving Lesson
-              </Button>
+              <BookDrivingBtn></BookDrivingBtn>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

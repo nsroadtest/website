@@ -1,0 +1,7 @@
+.videoSection-bg {
+  background-color: #ebebeb;
+  min-height: 60vh; /* adjust as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

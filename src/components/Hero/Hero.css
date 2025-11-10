@@ -7,11 +7,11 @@
     /* Bright green — matches “DRIVING SCHOOL” */ #202d85 100%
       /* Fade back to blue for balance */
   );
-  /* background-size: 200% 200%;
-  animation: gradientShift 8s ease infinite; */
+  background-size: 200% 200%;
+  animation: gradientShift 8s ease infinite;
 }
 
-/* @keyframes gradientShift {
+@keyframes gradientShift {
   0% {
     background-position: 0% 50%;
   }
@@ -21,7 +21,7 @@
   100% {
     background-position: 0% 50%;
   }
-} */
+}
 
 .hero {
   display: flex;

@@ -1,23 +1,30 @@
 import { Col, Container, Row, Card, Button } from "react-bootstrap";
 import "./Courses.css";
 import courses from "../../data/courses.ts";
+import BookDrivingBtn from "../Button/BookDrivingBtn.tsx";
 const Courses = () => {
+  const heading = "Our Courses";
+  const ribbonMessage = "Top Choice";
+  const desc =
+    "We provide a variety of driving courses to meet your needs. Whether you're a beginner or looking to improve your skills, we have the right course for you.";
+
   return (
     <>
       <div className="courses-bg py-3">
         <Container fluid>
           <Row>
-            <h1 className="text-center text-uppercase pt-5">Our Courses</h1>
-            <p className="fw-light lh-base text-center mb-5">
-              We provide a variety of driving courses to meet your needs.
-              Whether you're a beginner or looking to improve your skills, we
-              have the right course for you.
-            </p>
+            <h1 className="text-center text-uppercase pt-5">{heading}</h1>
+            <p className="fw-light lh-base text-center mb-5">{desc}</p>
           </Row>
           <Row>
             {courses.map((course) => (
               <Col key={course.id} xs={12} md={6} lg={4} className="mb-4">
                 <Card className="course-card-bg text-white h-100 p-4">
+                  {course.title === "Premium Package" && (
+                    <div className="ribbon-wrapper">
+                      <div className="ribbon">{ribbonMessage}</div>
+                    </div>
+                  )}
                   <Card.Body className="d-flex flex-column">
                     <Row className="d-flex justify-content-between align-items-center">
                       <Col xs={6}>
@@ -40,9 +47,7 @@ const Courses = () => {
                       </ul>
                     </div>
                     <div className="text-center mt-3">
-                      <Button className="text-uppercase btn btn-warning">
-                        Book Driving Lesson
-                      </Button>
+                      <BookDrivingBtn></BookDrivingBtn>
                     </div>
                   </Card.Body>
                 </Card>

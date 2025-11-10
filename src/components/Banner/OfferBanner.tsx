@@ -2,6 +2,7 @@ import { Col, Container, Row, Image, Button } from "react-bootstrap";
 import "./OfferBanner.css";
 import Marquee from "react-fast-marquee";
 import car from "/icons/car.png";
+import BookDrivingBtn from "../Button/BookDrivingBtn";
 const OfferBanner = () => {
   return (
     <>
@@ -21,9 +22,7 @@ const OfferBanner = () => {
                   comfortable, engaging, and rewarding learning experience.
                 </h6>
               </Marquee>
-              <Button className="text-uppercase btn btn-warning">
-                Book Driving Lesson
-              </Button>
+              <BookDrivingBtn></BookDrivingBtn>
             </Col>
           </Row>
         </Container>
