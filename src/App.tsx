@@ -6,7 +6,7 @@ import Courses from "./components/Course/Courses";
 import CourseRegistration from "./components/CourseRegisteration/CourseRegistration";
 import Footer from "./components/Footer/Footer";
 import Hero from "./components/Hero/Hero";
-import AppNavbar from "./components/navbar/AppNavbar";
+import AppNavbar from "./components/Navbar/AppNavbar";
 import Testimonials from "./components/Testimonials/Testimonials";
 import RoadTestVideo from "./components/Video/RoadTestVideo";
 

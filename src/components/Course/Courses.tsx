@@ -1,6 +1,6 @@
 import { Col, Container, Row, Card } from "react-bootstrap";
 import "./Courses.css";
-import courses from "../../data/courses.ts";
+import courses from "../../data/Courses.ts";
 import BookDrivingBtn from "../Button/BookDrivingBtn.tsx";
 const Courses = () => {
   const heading = "Our Courses";

@@ -1,10 +1,11 @@
+//@ts-ignore
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
 import TestimonialCard from "./TestimonialCard";
 import { Container } from "react-bootstrap";
-import type { Testimonial } from "./Testimonials";
+import type { Testimonial } from "../../data/Testimonials";
 import "./Testimonials.css";
-import testimonialsData from "../../data/testimonials";
+import testimonialsData from "../../data/Testimonials-Data";
 
 const Testimonials = () => {
   const testimonials: Testimonial[] = testimonialsData;

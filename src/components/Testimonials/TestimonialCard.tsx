@@ -1,6 +1,6 @@
-import { Card, Row, Col } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import StarRating from "./StarRating";
-import type { Testimonial } from "./Testimonials";
+import type { Testimonial } from "../../data/Testimonials";
 
 interface Props {
   testimonial: Testimonial;
