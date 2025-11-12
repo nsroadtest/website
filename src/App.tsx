@@ -7,6 +7,7 @@ import CourseRegistration from "./components/CourseRegisteration/CourseRegistrat
 import Footer from "./components/Footer/Footer";
 import Hero from "./components/Hero/Hero";
 import AppNavbar from "./components/navbar/AppNavbar";
+import Testimonials from "./components/Testimonials/Testimonials";
 import RoadTestVideo from "./components/Video/RoadTestVideo";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Courses></Courses>
       <CourseRegistration></CourseRegistration>
       <RoadTestVideo></RoadTestVideo>
+      <Testimonials></Testimonials>
       <Footer></Footer>
     </>
   );

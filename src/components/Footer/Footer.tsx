@@ -20,9 +20,10 @@ const Footer = () => {
           >
             <div>
               <div className="fw-bold">Working Hours</div>
-              <div>Mon - Fri: 9:00 AM - 6:00 PM</div>
-              <div>Sat: 10:00 AM - 4:00 PM</div>
-              <div>Sun: Closed</div>
+              <div>
+                We work 7 days a week from 8 AM to 6 PM, every day excluding
+                major holidays.
+              </div>
             </div>
             <div className="mt-3">
               <div className="fw-bold">Contact</div>
