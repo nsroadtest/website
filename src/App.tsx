@@ -1,5 +1,5 @@
 import ContactBanner from "./components/Banner/ContactBanner";
-import AppNavbar from "./components/Navbar/AppNavbar";
+import AppNavbar from "src/components/Navbar/AppNavbar";
 import Hero from "./components/Hero/Hero";
 import AboutUs from "./components/AboutUs/AboutUs";
 import OfferBanner from "./components/Banner/OfferBanner";
