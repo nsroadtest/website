@@ -6,7 +6,6 @@ import OfferBanner from "./components/Banner/OfferBanner";
 import Courses from "./components/Course/Courses";
 import CourseRegistration from "./components/CourseRegisteration/CourseRegistration";
 import Footer from "./components/Footer/Footer";
-
 import Testimonials from "./components/Testimonials/Testimonials";
 import RoadTestVideo from "./components/Video/RoadTestVideo";
 import "./App.css";
