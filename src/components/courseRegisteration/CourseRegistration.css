@@ -1,0 +1,20 @@
+.registration-section-bg {
+  background: #19478e;
+}
+.registration-form-bg {
+  background: #14294a;
+}
+
+.registration-form-div {
+  border-radius: 10px;
+}
+
+/* .registration-image {
+  width: "950px";
+  height: "555px";
+
+  @media (max-width: 768px) {
+    width: "100%";
+    height: "auto";
+  }
+} */

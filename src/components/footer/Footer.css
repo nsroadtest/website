@@ -1,0 +1,12 @@
+.footer-bg {
+  background: #3d7548;
+}
+
+.footer-socials a {
+  display: inline-block;
+  transition: transform 0.2s;
+}
+
+.footer-socials a:hover {
+  transform: scale(1.1);
+}
