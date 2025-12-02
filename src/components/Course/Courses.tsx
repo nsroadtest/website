@@ -1,6 +1,6 @@
 import { Col, Container, Row, Card } from "react-bootstrap";
 import "./Courses.css";
-import courses from "../../data/Courses.ts";
+import CoursesData from "../../data/Courses.ts";
 import BookDrivingBtn from "../Button/BookDrivingBtn.tsx";
 const Courses = () => {
   const heading = "Our Courses";
@@ -17,7 +17,7 @@ const Courses = () => {
             <p className="fw-light lh-base text-center mb-5">{desc}</p>
           </Row>
           <Row>
-            {courses.map((course) => (
+            {CoursesData.map((course) => (
               <Col key={course.id} xs={12} md={6} lg={4} className="mb-4">
                 <Card className="course-card-bg text-white h-100 p-4">
                   {course.title === "Premium Package" && (
