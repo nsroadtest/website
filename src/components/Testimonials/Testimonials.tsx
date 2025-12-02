@@ -5,7 +5,7 @@ import TestimonialCard from "./TestimonialCard";
 import { Container } from "react-bootstrap";
 import type { Testimonial } from "../../data/Testimonials";
 import "./Testimonials.css";
-import testimonialsData from "../../data/Testimonials-Data";
+import testimonialsData from "../../data/testimonials-Data";
 
 const Testimonials = () => {
   const testimonials: Testimonial[] = testimonialsData;

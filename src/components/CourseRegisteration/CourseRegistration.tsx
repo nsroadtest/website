@@ -1,6 +1,6 @@
 import { Container, Image, Row, Col } from "react-bootstrap";
 import "./CourseRegistration.css";
-import CourseRegistrationForm from "../Form/CourseRegistrationForm";
+import CourseRegistrationForm from "../form/CourseRegistrationForm";
 const CourseRegistration = () => {
   const heading = "Course Registration";
   return (

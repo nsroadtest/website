@@ -2,7 +2,7 @@ import { Col, Container, Row, Image } from "react-bootstrap";
 import "./OfferBanner.css";
 import Marquee from "react-fast-marquee";
 import car from "/icons/car.png";
-import BookDrivingBtn from "../Button/BookDrivingBtn";
+import BookDrivingBtn from "../button/BookDrivingBtn";
 const OfferBanner = () => {
   return (
     <>

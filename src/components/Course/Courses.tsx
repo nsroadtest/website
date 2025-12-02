@@ -1,7 +1,7 @@
 import { Col, Container, Row, Card } from "react-bootstrap";
 import "./Courses.css";
-import CoursesData from "../../data/Courses";
-import BookDrivingBtn from "../Button/BookDrivingBtn.tsx";
+import CoursesData from "../../data/courses.ts";
+import BookDrivingBtn from "../button/BookDrivingBtn.tsx";
 const Courses = () => {
   const heading = "Our Courses";
   const ribbonMessage = "Top Choice";

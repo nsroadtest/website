@@ -1,7 +1,7 @@
 import "./AppNavbar.css";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import logo from "/logo.png";
-import BookDrivingBtn from "../Button/BookDrivingBtn";
+import BookDrivingBtn from "../button/BookDrivingBtn";
 
 const AppNavbar = () => {
   return (

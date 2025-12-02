@@ -1,12 +1,12 @@
-import ContactBanner from "./components/Banner/ContactBanner";
+import ContactBanner from "./components/banner/ContactBanner";
 import AppNavbar from "@/components/navbar/AppNavbar";
-import Hero from "./components/Hero/Hero";
-import AboutUs from "./components/AboutUs/AboutUs";
-import OfferBanner from "./components/Banner/OfferBanner";
-import Courses from "./components/Course/Courses";
-import CourseRegistration from "./components/CourseRegisteration/CourseRegistration";
-import Footer from "./components/Footer/Footer";
-import Testimonials from "./components/Testimonials/Testimonials";
+import Hero from "./components/hero/Hero";
+import AboutUs from "./components/aboutUs/AboutUs";
+import OfferBanner from "./components/banner/OfferBanner";
+import Courses from "./components/course/Courses";
+import CourseRegistration from "./components/courseRegisteration/CourseRegistration";
+import Footer from "./components/footer/Footer";
+import Testimonials from "./components/testimonials/Testimonials";
 import RoadTestVideo from "./components/Video/RoadTestVideo";
 import "./App.css";
 
